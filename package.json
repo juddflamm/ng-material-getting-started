@@ -18,5 +18,9 @@
     "postinstall": "bower update",
     "prestart": "npm update",
     "test": "protractor ./e2e/protractor.conf.js"
+  },
+  "dependencies": {
+    "bower": "^1.5.3",
+    "express": "^4.13.3"
   }
 }
