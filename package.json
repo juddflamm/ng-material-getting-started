@@ -17,6 +17,7 @@
   "scripts": {
     "postinstall": "bower update",
     "prestart": "npm update",
+    "start": "node index.js",
     "test": "protractor ./e2e/protractor.conf.js"
   },
   "dependencies": {
